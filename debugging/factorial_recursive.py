@@ -11,7 +11,6 @@ def factorial(n):
         return n * factorial(n - 1)  # Recursive step
 
 
-
 # Read input, calculate factorial, and print the result.
 f = factorial(int(sys.argv[1]))
 print(f)
